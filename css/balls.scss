@@ -1,0 +1,31 @@
+$primaryColor: #6B8E23;  // Declaração de variáveis
+$secondaryColor: #008B8B;
+
+.bola1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #FF6347;
+    
+    &:hover {
+        background-color: $secondaryColor;
+    }
+
+    a {
+        color: $primaryColor;
+    }
+}
+
+.bola2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: $primaryColor;
+}
+
+.bola3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: $secondaryColor;
+}
